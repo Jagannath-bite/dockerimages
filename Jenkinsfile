@@ -9,7 +9,7 @@ pipeline {
         stage('Checkout') {
             steps {
                 git branch: 'main',
-                    url: 'https://github.com/your-username/my-simple-app.git'
+                    url: 'https://github.com/Jagannath-bite/dockerimages.git'
             }
         }
 
